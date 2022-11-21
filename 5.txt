@@ -1,1 +1,17 @@
+Web crawling to extract text and image from a website
 
+Components need to be -
+
+Crawler: A web crawler browses the internet like a spider, indexing and searching for material by clicking on links.
+We first need to "crawl" the web to gather the necessary URLs, which you then send to your scraper.
+
+Data locators in the scrapper are used to locate the data you want to extract from the HTML file.
+
+Method: To scrape data from your page, we use an HTTP requests library (such the Python-Requests library) and the Python BeautifulSoup library.
+
+Approach:
+1) Determine the destination webpage.
+2) Compile the URLs of the pages you wish to use for data extraction. 
+3) Send a request to these URLs to obtain the page's HTML.
+4) Utilize locators to locate the text and images in the HTML.
+5) Put the information in a file.
